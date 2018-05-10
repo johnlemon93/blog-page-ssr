@@ -1,0 +1,20 @@
+main {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    min-height: 220px;
+}
+
+main p {
+    line-height: 150%;
+}
+
+aside {
+    width: 25%;
+}
+
+article {
+    max-width: 800px;
+    flex-grow: 1;
+    text-align: justify;
+}

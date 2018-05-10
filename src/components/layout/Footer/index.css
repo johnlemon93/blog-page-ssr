@@ -1,0 +1,29 @@
+footer {
+    background: #fafafa;
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    margin-top: 25px;
+    padding: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #4a9c54;
+}
+
+footer .social a {
+    margin-left: 10px;
+}
+
+footer .social a:nth-child(1) {
+    margin-left: 0;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: green;
+}

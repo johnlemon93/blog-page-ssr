@@ -1,0 +1,41 @@
+.published {
+    display: block;
+    padding: 10px;
+    text-align: right;
+    font-size: .9em
+}
+
+.post-content blockquote {
+    font-style: italic;
+    opacity: 0.8;
+    border-left: 3px solid #EEE;
+    padding-left: 16px;
+}
+
+.post-content a {
+    text-decoration: none;
+    color: #4a9c54;
+}
+
+.post-content a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+.post-content .copyright {
+    font-size: .7em;
+    color: rgb(62, 129, 67);
+    opacity: 0.6;
+}
+
+.post-content h1:before, 
+.post-content h2:before, 
+.post-content h3:before, 
+.post-content h4:before, 
+.post-content h5:before, 
+.post-content h6:before {
+        color: #CCC;
+        margin-left: -20px;
+        margin-right: 10px;
+        content: "#";
+}
