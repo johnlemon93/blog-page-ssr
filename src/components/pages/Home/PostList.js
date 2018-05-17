@@ -1,9 +1,4 @@
 import React, { Component } from 'react';
-
-import hoiIcon from '../../../img/hoi.png';
-import tuatIcon from '../../../img/tuat.png';
-import dauIcon from '../../../img/dau.png';
-
 import PostItem from './PostItem';
 
 class PostList extends Component {
@@ -24,9 +19,9 @@ class PostList extends Component {
 
     render() {
         const zodiacIconss = {
-            "2019": hoiIcon,
-            "2018": tuatIcon,
-            "2017": dauIcon
+            "2019": "images/hoi.png",
+            "2018": "images/tuat.png",
+            "2017": "images/dau.png"
         }
 
         const year = this.props.year;

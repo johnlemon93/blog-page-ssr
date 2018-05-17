@@ -8,6 +8,8 @@ import BookCorner from '../../pages/BookCorner';
 import AboutMe from '../../pages/AboutMe';
 import Post from '../../pages/Post/index';
 
+import PostEditor from '../../pages/PostEditor/index';
+
 import './index.css';
 
 class Body extends Component {
@@ -19,7 +21,8 @@ class Body extends Component {
                 <Route path="/my-oln" component={MyOLN} />
                 <Route path="/book-corner" component={BookCorner} />
                 <Route path="/about-me" component={AboutMe} />
-                <Route path="/posts/:slug" component={Post} />
+                <Route path="/p/:slug" component={Post} />
+                <Route path="/admin/editor" component={PostEditor} />
             </main>
         );
     }
