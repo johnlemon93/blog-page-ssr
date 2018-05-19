@@ -45,7 +45,7 @@ class Home extends Component {
         if (error) {
             return <div>Error: {error.message}</div>;
         } else if (!isLoaded) {
-            return <div>Loading...</div>;
+            return <div className="loading"></div>;
         } else {
             document.title = "Nơi tôi tập tành viết lách | blog Chanh Dây";
             return (
