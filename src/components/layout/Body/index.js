@@ -23,6 +23,7 @@ class Body extends Component {
                     <Route path="/book-corner" component={BookCorner} />
                     <Route path="/about-me" component={AboutMe} />
                     <Route path="/p/:slug" component={Post} />
+                    <Route path="/admin/editor/:slug" component={PostEditor} />
                     <Route path="/admin/editor" component={PostEditor} />
                 </Switch>
             </main>

@@ -11,6 +11,7 @@ class Post extends Component {
             isLoaded: false,
             content: ""
         };
+        this.handleOnScroll = this.handleOnScroll.bind(this);
     }
 
     componentDidMount() {
@@ -23,6 +24,8 @@ class Post extends Component {
                         isLoaded: true,
                         content: result
                     });
+                    // When the user scrolls down 40px from the top of the document, show the button
+                    window.addEventListener('scroll', this.handleOnScroll);
                 },
                 (error) => {
                     this.setState({
@@ -31,14 +34,17 @@ class Post extends Component {
                     });
                 }
             );
+    }
 
-        // When the user scrolls down 40px from the top of the document, show the button
-        window.onscroll = () => {
-            if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
-                document.getElementById("go-top").style.display = "block";
-            } else {
-                document.getElementById("go-top").style.display = "none";
-            }
+    componentWillUnmount() {
+        window.removeEventListener('scroll', this.handleOnScroll);
+    }
+
+    handleOnScroll() {
+        if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+            document.getElementById("go-top").style.display = "block";
+        } else {
+            document.getElementById("go-top").style.display = "none";
         }
     }
 
@@ -56,8 +62,8 @@ class Post extends Component {
         } else {
             const title = content.match(/(?=>)((.|[\n\r])*)(?=<\/h1>)/);
             if (title) document.title = title[0].substr(1).trim() + " | Chanh's blog";
-
             this.scrollToTop();
+
             return (
                 <article className="post-container"
                     itemScope itemType="https://schema.org/Blog">
