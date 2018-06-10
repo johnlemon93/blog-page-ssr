@@ -1,0 +1,77 @@
+.editor-container {
+    height: 700px;
+    max-width: 100%;
+    display: flex;
+    margin: 0 20px 0 20px;
+    padding: 0;
+}
+
+.editor-container div {
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    overflow: auto;
+    width: 50%;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+.editor-container .editor {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.editor-container .editor .save {
+    display: flex;    
+}
+
+.editor .save * {
+    flex-grow: 0;
+    width: auto;
+    margin-right: 20px; 
+}
+
+.editor .save #save-post {
+    width: 70px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-size: 1em;
+    background-color: rgb(10, 86, 207);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.editor #save-post:hover {
+    background-color: rgb(61, 129, 240);
+}
+
+.editor #save-post:active {
+   transform: translateY(4px);
+}
+
+.editor #save-post:disabled {
+    background-color: #c1c1c1;
+}
+
+.editor textarea {
+    padding-top: 10px !important;
+    width: 95%;
+    height: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em !important;
+    line-height: 150% !important;
+}
+
+.editor-container .preview .published {
+    width: 100%;
+    display: block;
+    padding: 0;
+    text-align: right;
+    font-size: .8em;
+    overflow: auto;
+}

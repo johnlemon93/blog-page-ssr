@@ -1,0 +1,95 @@
+header {
+    margin-bottom: 25px;
+}
+
+header {
+    background: #fafafa;
+    text-align: center;
+    padding: 10px;
+}
+
+header p.me-intro {
+    line-height: 26px;
+    font-size: 0.9em;
+    color: #6e6e6e;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+}
+
+nav a, .header2 .subscribe {    
+    background: #ffffff;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #333;
+    padding: 3px 8px;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:nth-child(1) {
+    margin-left: 0;
+}
+
+nav a:hover, .header2 .subscribe:hover {
+    background: #ababab;
+    color: #fff;
+}
+
+.search {
+    margin-top: 15px;
+}
+
+.search input {
+    min-width: fit-content;
+    width: 30%;
+    border: 1px solid #ccc;
+    background: #fff;
+    font-size: .9em;
+    padding: 8px;
+}
+
+/* header 2 */
+.header2 {
+    background: #FAFAFA;
+    padding: 30px;
+    color: #FFF;
+    font-weight: bold;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.head {
+    text-decoration: none;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.head .avatar {
+    width: 32px;
+    height: 32px;
+    border: 3px solid #FFF;
+    box-shadow: 0 0 0px 3px #333;
+    border-radius: 23px;
+    background: url('/images/favicon-32x32.png') no-repeat center center;
+    background-size: contain;
+}
+
+.head .header-link {  
+    margin-left: 10px;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.header2 .subscribe {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin: 0;
+}

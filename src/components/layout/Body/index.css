@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    justify-content: center;
+    min-height: 220px;
+}
+
+main p {
+    line-height: 150%;
+}
+
+aside {
+    width: 25%;
+}
+
+article {
+    max-width: 800px;
+    flex-grow: 1;
+    text-align: justify;
+}
+
+.loading {
+    padding: 30px;
+    background: url('/images/loading.gif') no-repeat center center;
+    display: block
+}
+
+::-webkit-scrollbar-track {
+    background-color: #eee
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #ccc
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border: 0
+}

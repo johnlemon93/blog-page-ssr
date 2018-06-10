@@ -1,0 +1,134 @@
+.post-container .comments {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.post-container .comments .login {
+    display: none;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    background: #fafafa;
+    line-height: 32px
+}
+
+.post-container .comments .login button {
+    background: #3498db;
+    border: 0;
+    border-radius: 3px;
+    padding: 3px 5px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer
+}
+
+.post-container .comments .comment-input {
+    margin-top: 10px;
+    display: none;
+    flex-direction: row
+}
+
+.post-container .comments .comment-input .avatar {
+    flex-basis: 32px;
+    width: 32px;
+    height: 32px;
+    border-radius: 3px;
+    overflow: hidden
+}
+
+.post-container .comments .comment-input .input {
+    flex: 1;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    height: auto
+}
+
+.post-container .comments .comment-input .input textarea {
+    padding: 5px;
+    outline: 0;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    resize: none;
+    border-radius: 3px;
+    min-height: 50px;
+    max-height: 120px
+}
+
+.post-container .comments .comment-input .input button {
+    display: none
+}
+
+.post-container .comments .comment-input .input span {
+    flex-basis: 14px;
+    font-size: .8em;
+    margin-top: 5px;
+    text-align: right;
+    color: #555
+}
+
+.post-container .comments .comment-input .input span kbd {
+    background: #fafafa;
+    padding: 3px
+}
+
+@media only screen and (max-width:768px) {
+    .post-container .comments .comment-input .input {
+        flex-direction: row
+    }
+    .post-container .comments .comment-input .input span {
+        display: none
+    }
+    .post-container .comments .comment-input .input textarea {
+        flex: 1
+    }
+    .post-container .comments .comment-input .input button {
+        display: block;
+        flex-basis: 55px;
+        height: 55px;
+        border: 1px solid #fff;
+        background: #3498db;
+        color: #fff;
+        border-radius: 3px;
+        cursor: pointer
+    }
+}
+
+.post-container .comments .comment-list {
+    margin: 10px 0 0 0;
+    padding: 0;
+    list-style: none
+}
+
+.post-container .comments .comment-list li {
+    display: flex;
+    flex-direction: row
+}
+
+.post-container .comments .comment-list li:before {
+    display: none;
+    content: ""
+}
+
+.post-container .comments .comment-list li .avatar {
+    flex-basis: 32px;
+    width: 32px;
+    height: 32px;
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 8px
+}
+
+.post-container .comments .comment-list li .comment {
+    flex: 1;
+    margin-left: 5px
+}
+
+.post-container .comments .comment-list li .comment .metadata {
+    font-size: .9em;
+    color: #888
+}
+
+.post-container .comments .comment-list li .comment .metadata b {
+    color: #000
+}
