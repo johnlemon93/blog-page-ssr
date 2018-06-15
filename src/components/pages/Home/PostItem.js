@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
+import moment from 'moment';
 
 class PostItem extends Component {
     render() {
         const url = this.props.url;
         const title = this.props.title;
 
-        const date = new Date(this.props.date);
+        const date = moment(this.props.date).toDate();
         const dateString = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
         
         const dateStrs = date.toDateString().split(' ');

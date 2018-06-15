@@ -12,6 +12,7 @@
     "highlightjs": "^9.10.0",
     "ignore-styles": "^5.0.1",
     "marked": "^0.3.19",
+    "moment": "^2.22.2",
     "node-fetch": "^2.1.2",
     "prop-types": "^15.6.1",
     "react": "^16.3.2",
