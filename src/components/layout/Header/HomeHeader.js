@@ -7,7 +7,7 @@ class HomeHeader extends Component {
             <header>
                 <a href="/"><img src="images/logo.gif" alt="animal" /></a>
                 <h2 itemProp="name">BLOG CHANH DÂY</h2>
-                <h5 itemProp="author">by John Lemon</h5>
+                <h4 itemProp="author">by John Lemon</h4>
                 <p className="me-intro" itemProp="description">Nơi tôi thỏa sức tập tành viết lách,<br /> than thở chuyện đời và...<br /> nói xấu người khác</p>
 
                 <Navigation />

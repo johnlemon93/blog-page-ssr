@@ -4,6 +4,7 @@ import CopyRight from './Copyright';
 import Comment from './Comment/index';
 import hljs from 'highlightjs/highlight.pack.min';
 import postApi from '../../../api/post-api';
+import LikeBox from './LikeBox';
 
 class Post extends Component {
     constructor(props) {
@@ -23,10 +24,19 @@ class Post extends Component {
     }
 
     componentDidUpdate() {
-        hljs.initHighlighting.called = false;
-        hljs.initHighlighting();
+        this.initHlJs();
+    }
+
+    componentDidMount() {
+        this.initHlJs();
+        
         // When the user scrolls down 40px from the top of the document, show the button
         window.addEventListener('scroll', this.handleOnScroll);
+    }
+
+    initHlJs() {
+        hljs.initHighlighting.called = false;
+        hljs.initHighlighting();
     }
 
     handleOnScroll() {
@@ -56,6 +66,7 @@ class Post extends Component {
                         dangerouslySetInnerHTML={{ __html: content }}>
                     </section>
                     <CopyRight />
+                    <LikeBox postSlug={this.props.match.params.slug} />
                     <Comment postSlug={this.props.match.params.slug} />
                 </Fragment>
             );

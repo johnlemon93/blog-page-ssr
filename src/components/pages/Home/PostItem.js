@@ -18,7 +18,7 @@ class PostItem extends Component {
             <div className="entry" itemScope itemProp="blogPost" 
                 itemType="https://schema.org/BlogPosting">
                 <NavLink to={url} title="Go to post detail" itemProp="url">
-                    <h5 className="entry-title" itemProp="name">{title}</h5>
+                    <h4 className="entry-title" itemProp="name">{title}</h4>
                     <time className="entry-date" itemProp="datePublished" dateTime={dateString}>Published {publishedDateString}</time>
                 </NavLink>
             </div>

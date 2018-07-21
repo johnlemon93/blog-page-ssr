@@ -28,6 +28,16 @@
     opacity: 0.6;
 }
 
+.post-container .copyright * {
+    font-size: inherit;
+}
+
+.post-container .likebox {
+    margin-top: 50px;
+    border-top: 1px solid #EEE;
+    padding-top: 20px;
+}
+
 .post-container .copyright #brick {
     width: 1.7em;
     height: 1.7em;
@@ -128,7 +138,10 @@ pre code, pre code * {
 }
 
 #go-top i {
-    font-size: 18px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 36px;
+    right: 41px;
 }
 
 #go-top:hover {

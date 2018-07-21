@@ -14,11 +14,7 @@ body {
 }
 
 /* responsive */
-
-@media screen and (max-width: 800px) {
-    main {
-        padding: 0 10px 0 10px;
-    }
+@media screen and (max-width: 800px) {    
     article, aside {
         width: auto;
     }
