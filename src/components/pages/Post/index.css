@@ -53,6 +53,15 @@
     content: "#";
 }
 
+.post-container h2 {
+    counter-increment: first;
+    counter-reset: second;
+}
+
+.post-container h2:before {
+    content: counter(first) ".";
+}
+
 /* code highlight */
 code {
     background: #FAFAFA;

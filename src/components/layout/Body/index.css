@@ -8,6 +8,13 @@ main p {
     line-height: 150%;
 }
 
+main img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    border-radius: 3px;
+}
+
 aside {
     width: 25%;
 }
@@ -15,7 +22,6 @@ aside {
 article {
     max-width: 800px;
     flex-grow: 1;
-    text-align: justify;
 }
 
 .loading {

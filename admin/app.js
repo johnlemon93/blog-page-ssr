@@ -4,6 +4,7 @@ import bodyParser from 'body-parser';
 import fs from 'fs';
 
 import Generator from './Generator';
+import postLists from '../public/publish.json';
 
 const app = express();
 const gen = new Generator();
@@ -61,6 +62,8 @@ app.get('/publish-all', (req, res, next) => {
         }
 
         files.forEach(function (f) {
+            if (!postLists.published.find(p => p.url.includes(f.replace('.md', '')))) return;
+
             let htmlFile = '../public/posts/' + f.replace('.md', '.html');
             fs.readFile(__dirname + '/posts/' + f, function (err, data) {
                 if (err)
