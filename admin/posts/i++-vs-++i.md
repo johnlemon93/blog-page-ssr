@@ -21,7 +21,7 @@ Một điểm đáng lưu ý ở đây, không nên nhầm lẫn là ```i++``` s
 
 Về bản chất chương trình sẽ tạo ra một biến tạm (temp) để lưu giá trị ban đầu của **i** và trả về giá trị đó cho phép gán sau khi phép toán ```i++``` thực hiện xong.
 ```C++
-int MePlusPlus(int me) 
+int MePlusPlus(int& me) 
 {
     int temp = me;
     me = me + 1;
@@ -49,7 +49,8 @@ int add(int x, int y)
 int main()
 {
     int x = 5;
-    // tùy thuộc vào thứ tự evaluate các param của conmpiler mà phép cộng này có thể là 5+6 hoặc 6+6  
+    // tùy thuộc vào thứ tự evaluate các param của conmpiler
+    // mà phép cộng này có thể là 5+6 hoặc 6+6
     int value = add(x, ++x); 
  
     std::cout << value; // 11 or 12?

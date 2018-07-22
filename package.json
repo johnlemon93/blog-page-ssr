@@ -22,6 +22,7 @@
     "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
+    "babel-cli": "^6.6.5",
     "nodemon": "^1.17.5",
     "react-scripts": "1.1.4",
     "cpx": "^1.5.0"
@@ -37,6 +38,9 @@
     "build": "react-scripts build && cpx \"build/index.html\" build/template",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "server": "nodemon --exec node server/bootstrap.js"
+    "server": "nodemon --exec node server/bootstrap.js",
+    "publish": "babel-node admin/publish.js",
+    "deploy": "babel-node admin/deploy.js",
+    "preview": "npm run publish && npm run build && npm run server"
   }
 }
