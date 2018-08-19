@@ -7,23 +7,23 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://blogchanhday.com/</loc>
-  <lastmod>2018-01-07T08:20:33+00:00</lastmod>
+  <loc>https://blogchanhday.com/</loc>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://blogchanhday.com/p/debut-chanh-day</loc>
-  <lastmod>2018-01-07T08:20:33+00:00</lastmod>
+  <loc>https://blogchanhday.com/p/debut-chanh-day</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blogchanhday.com/p/series-tren-trai-dat-nay-co-hai-loai-ba-cham</loc>
-  <lastmod>2018-21-18:25:33+00:00</lastmod>
+  <loc>https://blogchanhday.com/p/series-tren-trai-dat-nay-co-hai-loai-ba-cham</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://blogchanhday.com/p/i++-vs-++i</loc>
-  <lastmod>2018-21-18:25:33+00:00</lastmod>
+  <loc>https://blogchanhday.com/p/i++-vs-++i</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blogchanhday.com/p/nhat-ky-anh-bo-cau-dua-thu-va-https</loc>
   <priority>0.80</priority>
 </url>
 </urlset>

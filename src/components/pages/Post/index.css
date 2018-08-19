@@ -12,6 +12,29 @@
     padding-left: 16px;
 }
 
+ul {
+    list-style: none;
+    padding-left: 24px;
+}
+
+ul>li:before {
+    content: "- ";
+    margin-left: -18px;
+    display: inline;
+}
+
+ul>li>ul>li:before {
+    content: "+ ";
+    margin-left: -18px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding-left: 10px;
+    line-height: 24px;
+}
+
 .post-container a {
     text-decoration: none;
     color: #4a9c54;
@@ -23,7 +46,7 @@
 }
 
 .post-container .copyright {
-    font-size: .7em;
+    font-size: .8em;
     color: rgb(62, 129, 67);
     opacity: 0.6;
 }
@@ -43,11 +66,11 @@
     height: 1.7em;
     display: inline-block;
     background-image: url('/images/voz-brick.png');
-    background-size: cover;                      
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;              
+    background-position: center center;
     color: transparent !important;
-    vertical-align: middle; 
+    vertical-align: middle;
     margin-top: -2px;
 }
 
@@ -73,6 +96,7 @@
 }
 
 /* code highlight */
+
 code {
     background: #FAFAFA;
     color: rgb(62, 129, 67);

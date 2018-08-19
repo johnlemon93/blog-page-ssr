@@ -6,7 +6,7 @@
 
 Thế nên không chỉ người là có hai loại, mà mọi thứ trên trái đất đều có thể chia thành hai kiểu. Nhưng có một số thứ nếu nghiêm túc nhìn vào bản chất, sẽ không chỉ là thích hay không, mà còn là vấn đề đúng hay sai.
 
-Hôm rồi ngồi hóng war React vs Vue trên group [Pure React](https://www.facebook.com/groups/purereact) liền nảy ra ý tưởng viết series này. Mục đích của mình là muốn chia sẻ suy nghĩ và những kiến thức bổ ích trước những sự lựa chọn nhảm nhí cũng như quan trọng trong cuộc sống.
+Mục đích của series này là chia sẻ suy nghĩ và những kiến thức bổ ích trước những sự lựa chọn nhảm nhí cũng như quan trọng trong cuộc sống.
 
 Disclaimer: các bài viết không nhằm gây war, no politics, no religion. Chỉ mang tính chất chia sẻ và nhận xét sự việc trên tinh thần học hỏi và phát triển.
 
@@ -17,6 +17,3 @@ Disclaimer: các bài viết không nhằm gây war, no politics, no religion. C
 - [People who knows me and who don't](/p/people-who-knows-me-and-who-dont)
 
 Trong lúc chờ cho bản thân bớt lười và implement chức năng tag cho blog. Mình sẽ cập nhật series ở đây. Mong các bạn đi qua để lại vài bình luận cho xôm :).
-
-
-

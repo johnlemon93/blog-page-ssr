@@ -12,8 +12,8 @@ window.onload = async () => {
     // load data before hydrating
     const url = window && window.location && window.location.href;
     if (url.includes("/p/")) {
-        // trim '/' and get the slug from the last query part
-        const postSlug = url.replace(/^\/+|\/+$/g, '').split('/').splice(-1)[0];
+        // get the slug from the last query part
+        const postSlug = url.split('/')[4];
         await postApi.getPostContent(postSlug);
     } else {
         await postApi.getPostLists();

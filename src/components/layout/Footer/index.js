@@ -9,7 +9,7 @@ class Footer extends Component {
                 <div className="social">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/blogchanhday"><i className="icon-facebook-squared"></i></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/johnlemon93"><i className="icon-github-squared"></i></a>
-                    <a target="_blank" rel="noopener noreferrer" href="http://blogchanhday.com"><i className="icon-emo-coffee"></i></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://blogchanhday.com"><i className="icon-emo-coffee"></i></a>
                 </div>
             </footer>
         );
