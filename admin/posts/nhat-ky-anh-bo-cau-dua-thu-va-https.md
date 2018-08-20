@@ -25,7 +25,7 @@ Mallory đây mà, cô ta là bạn thân của Alice và có vẻ cũng "say" c
 
 Sợ quá tôi ù té bay về nhà Alice.
 
->**Lời tác giả**: *Đây là cách HTTP chuyền tải thông tin. Sợ chưa 😨? Đừng bao giờ gửi thông tin quan trọng như bank credential hay credit info qua HTTP. Nếu một ngày xấu trời, bạn vào website của ngân hàng để chuyển tiền mà ngó lên thanh url của trình duyệt không thấy chữ HTTPS xanh xanh đâu hết, thì đừng có làm lơ mà phải ngừng ngay mọi thao tác và gọi ngay cho bộ phận CSKH để tra hỏi nhé.*
+>**Lời tác giả**: *Đây là cách HTTP chuyền tải thông tin. Sợ chưa 😨? Đừng bao giờ gửi thông tin quan trọng như bank credential hay credit info qua HTTP. Rất có thể gói tin sẽ bị một Mallory đen tối nào đó chặn lại và sửa đổi trước khi đến trình duyệt của bạn.*
 
 ## Một ngày không mưa không nắng tháng 4 năm 2000
 
@@ -47,7 +47,7 @@ Nhưng Bob vẫn nghệch mồm khi cầm bức thư. Vẫn là những ký tự
 
 Dù mồm vẫn nghệch ra nhưng Bob vẫn lắng nghe chăm chú.
 
-"Ví dụ A --> D, B-->E, C-->F. Từ _stupid_ sẽ thành _vwxslg_ Nhưng không phải lần nào cũng dời 3 chữ cái, số lần dời sẽ được ghi góc trái bên dưới của lá thư. Vậy nhé!"
+"Ví dụ A --> D, B-->E, C-->F. Từ _stupid_ sẽ thành _vwxslg_. Nhưng không phải lần nào cũng dời 3 chữ cái, số lần dời sẽ được ghi góc trái bên dưới của lá thư. Vậy nhé!"
 
 Alice hôn tạm biệt Bob lúc này đã tươi tỉnh hơn, rồi ra về. Trông cô có vẻ hí hửng với mánh khóe mình vừa nghĩ ra để lừa cô bạn thân. Và cũng là tình địch.
 
@@ -109,15 +109,13 @@ Khi tôi sắp cận kề cái chết thì Alice xin đẹp tới cứu "Dùng b
 
 >**Lời tác giả**: *Một câu hỏi nhỏ là tại sao Alice hay Bob không tự ký vào hộp của mình? Câu trả lời rất đơn giản, họ không chuyên nghiệp và xịn bằng Ted trong việc này. Hơn nữa, Mallory là bạn thân của Alice nên cô ta có thể giả chữ ký dễ dàng. Tóm lại, phải cần đến một bên thứ 3 đầy uy tín và tin tưởng để thực hiện việc xác thực. Ted làm việc này không công nhưng trong thực tế, bạn phải trả tiền cho việc duy trì chữ ký HTTPS cho website của mình. Trên đời làm gì có thứ vừa free mà vừa ngon lành đảm bảo. Nếu một ngày xấu trời, bạn thấy chữ HTTPS bị mờ kèm theo dấu chéo màu đỏ thì 96,69% bạn cần phải móc tiền để gia hạn đấy.*
 
->*Đọc tới đây hẳn bạn đã lờ mờ hiểu HTTPS khác HTTP như nào rồi. Trong mã hóa, Ted được gọi là một Certification Authority (tạm dịch là Tổ chức chứng nhận). Và trình duyệt bạn đang dùng để đọc bài này chứa chứng thực (chữ ký và đóng dấu) từ rất nhiều Certification Authorities khác nhau. Vậy, khi bạn connect tới một website lần đầu tiên, bạn  sẽ tin "cái hộp" của site đó. Vì Ted là một CA (Công An 😜), rất nhiều người biết Ted và tin Ted, bạn cũng tin tưởng Ted và Ted nói với bạn rằng "cái hộp" đó là hợp lệ. Nên bạn có thể yên tâm hơn khi nhập tài khoản hay thông tin thẻ tín dụng vào.*
+>*Trong mã hóa, Ted được gọi là một Certification Authority (tạm dịch là Tổ chức chứng nhận). Và trình duyệt bạn đang dùng để đọc bài này được tích hợp sẵn chứng thực (chữ ký và đóng dấu) từ rất nhiều Certification Authorities khác nhau. Vậy, khi bạn connect tới một website lần đầu tiên, bạn  sẽ tin "cái hộp" của site đó. Vì Ted là một CA (Công An 😜), rất nhiều người biết Ted và tin Ted, bạn cũng tin tưởng Ted và Ted nói với bạn rằng "cái hộp" đó là hợp lệ. Nên bạn có thể yên tâm hơn khi nhập tài khoản hay thông tin thẻ tín dụng vào.*
 
 ## Một ngày u ám cuối tháng 4 năm 2000. Tôi nghỉ hưu
 
-Mallory bỏ cuộc, không thấy cô ta quấy phá nữa và yên phận về một nhà với Ted.
+Mallory bỏ cuộc, không thấy cô ta quấy phá nữa và yên phận về một nhà với Ted(!).
 
-Khoan đã, cái này đáng lo đấy, lỡ cô ta chôm con dấu và cây bút gia truyền rồi giả chữ ký sao.
-
-Nhưng theo Alice thì quả thật cô ta đã thay đổi không làm phù thủy nữa. Nên có vẻ happy ending được rồi.
+Khoan đã, cái này đáng lo đấy, lỡ cô ta chôm con dấu và cây bút gia truyền rồi giả chữ ký sao. Nhưng theo Alice thì quả thật cô ta đã thay đổi không làm phù thủy nữa. Nên có vẻ happy ending được rồi.
 
 Cơ mà đời còn nhiều cái "nhưng" lắm.
 
@@ -135,8 +133,6 @@ Yayy! Vậy là tôi lại có thể tiếp tục hành nghề thêm vài năm n
 
 ## Lời kết
 
-Chắc trà bánh cũng đã hết rồi nhỉ, hi vọng các bạn đã hiểu được cách mà HTTPS vận hành (ở mức dễ hình dung). Chân thành cảm ơn các bạn đã đọc hết câu chuyện nhảm nhí này.
+Chắc trà bánh cũng đã hết rồi nhỉ, hi vọng các bạn đã hiểu được cách mà HTTPS vận hành (ở mức dễ hình dung). Bài viết được mình "lấy cảm hứng" (dịch kiểu tùy hứng) từ bài gốc [HTTPS explained with carrier pigeons](https://medium.freecodecamp.org/https-explained-with-carrier-pigeons-7029d2193351) khá nổi tiếng với gần 60k lượt claps trên Medium.
 
-Bài viết được mình "lấy cảm hứng" (dịch kiểu tùy hứng) từ bài gốc [HTTPS explained with carrier pigeons](https://medium.freecodecamp.org/https-explained-with-carrier-pigeons-7029d2193351) khá nổi tiếng với gần 60k lượt claps trên Medium.
-
-Nếu một ngày ai đó thắc mắc tại sao có chữ https màu xanh xanh trên thanh url của trình duyệt, hãy đưa cho họ url của bài viết này nhé. Xin chân thành cảm ơn một lần nữa 😃!
+Xin chân thành cảm ơn các bạn đã chịu khó đọc đến đây dù câu chuyện mình vẽ ra có hơi nhảm chút so với bài gốc. Nếu một ngày ai đó thắc mắc tại sao có chữ https màu xanh xanh trên thanh url của trình duyệt, hãy đưa cho họ url của bài viết này nhé 😃!
