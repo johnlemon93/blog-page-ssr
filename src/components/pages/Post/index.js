@@ -77,8 +77,8 @@ class Post extends Component {
 
         return (
             <PostLayout windowTitle={wTitle}>
-                <article className="post-container"
-                    itemScope itemType="https://schema.org/Blog">
+                <article itemScope itemType="https://schema.org/BlogPosting"
+                    className="post-container">
                     {htmlContent}
                     <button onClick={() => this.scrollToTop()} id="go-top" title="Go to top"><i className="icon-up-open"></i></button>
                 </article>

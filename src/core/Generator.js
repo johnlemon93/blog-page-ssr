@@ -30,6 +30,9 @@ class Generator {
         //markdownPost = markdownPost.replace(/--@TAGS.*\n/g, generateTags(markdownPost));
 
         var postContent = marked(markdownPost);
+        postContent = postContent.replace(/<h1/, '<h1 itemprop="name headline"');
+        postContent = postContent.replace(/div class='published'/, 'div class="published" itemprop="datePublished"');
+
         return postContent;
     }
 }
