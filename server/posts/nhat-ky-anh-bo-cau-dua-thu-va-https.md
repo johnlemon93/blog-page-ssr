@@ -13,25 +13,25 @@ Tôi phải nói trước rằng, nếu bạn đang tìm kiếm một bài phân
 
 ## Một ngày u ám tháng 3 năm 2000
 
-Alice muốn gửi thư cho người yêu của cô, Bob. Cô ấy mở cửa lồng và tóm lấy tôi, cột lá thư vào chân trái và không quên cho tôi vài hạt đậu. Trao tôi một nụ hôn vào đỉnh đầu (riêng cái này tôi nghĩ tôi sẽ không chuyển cho tên Bob đâu), Alice tung người tôi lên không trung.
+Alice muốn gửi thư cho người yêu của cô, Bob. Cô ấy mở cửa lồng và tóm lấy tôi, cột lá thư vào chân trái và không quên đút cho vài hạt đậu. Trao tôi một nụ hôn vào đỉnh đầu (riêng cái này tôi nghĩ tôi sẽ không chuyển cho tên Bob đâu), Alice dịu dàng tung kẻ đưa thư này lên không trung.
 
-Sau hơn nửa ngày bay, tôi hơi mệt và ngó nghiêng tìm chỗ nghỉ. Tôi rẽ ngang công viên xem có gì ăn không thì thấy một cô gái với bịch gì vàng vàng trên tay, hình như đang vẫy tôi xuống.
+Sau hơn nửa ngày bay, tôi hơi mệt và ngó nghiêng tìm chỗ nghỉ. Tôi rẽ ngang công viên xem có gì ăn không và lại thấy một cô gái với bịch gì vàng vàng trên tay, hình như đang vẫy vẫy gọi mời.
 
-Mallory đây mà, cô ta là bạn thân của Alice và có vẻ cũng "say" cha Bob. Mà thôi có ăn là được rồi. Tôi sà xuống bịch thóc mặc kệ bàn tay Mallory sờ soạn gãi gãi người tôi.
+Mallory đây mà, cô ta là bạn thân của Alice và có vẻ cũng "say" cha Bob. Sao dạo này cô siêng ra công viên vậy? Mà thôi có ăn là được rồi. Tôi sà xuống bịch thóc mặc kệ bàn tay Mallory sờ soạn gãi gãi...
 
-Ê sao bữa nay cô chỉ khoái mỗi cặp giò tôi thôi vậy. Hoặc chỉ là tôi nghĩ như thế.
+Ê sao bữa nay cô chỉ khoái mỗi cặp giò thôi vậy. Hoặc chỉ là tôi nghĩ như thế.
 
-Ăn no quá nên tôi bay chậm hơn mọi khi. Lúc hạ cánh xuống cửa sổ nhà Bob, hắn chộp lấy tôi có vẻ bực bội. Oái nhẹ tay cái. Đọc lấy đọc để mẩu giấy xong hắn đứng hình hết 30 giây. Rồi bỗng dưng khóc rống lên đập bàn ghế phóng chén đũa tứ tung.
+Ăn no quá nên tôi bay chậm hơn mọi khi. Lúc hạ cánh xuống cửa sổ nhà Bob, hắn có vẻ bực bội vì phải đợi lâu. Oái nhẹ tay cái. Đọc lấy đọc để mẩu giấy xong hắn đứng hình hết 30 giây. Rồi bỗng dưng khóc rống lên đập bàn ghế phóng chén đũa tứ tung.
 
 Sợ quá tôi ù té bay về nhà Alice.
 
->**Lời tác giả**: Đây là cách HTTP chuyền tải thông tin. Sợ chưa 😨? Đừng bao giờ gửi thông tin quan trọng như bank credential hay credit info qua HTTP. Rất có thể gói tin sẽ bị một Mallory đen tối nào đó chặn lại và sửa đổi trước khi đến trình duyệt của bạn.
+>**Lời tác giả**: Đây là cách HTTP chuyền tải thông tin. Sợ chưa 😨? Đừng bao giờ gửi thông tin quan trọng như bank credential hay credit info qua HTTP. Rất có thể gói tin sẽ bị một Mallory đen tối nào đó chặn lại và sửa đổi trước khi đến trình duyệt của bạn và gây nên một thảm họa.
 
 ## Một ngày không mưa không nắng tháng 4 năm 2000
 
 Tôi béo lên 3 lạng vì kể từ ngày ấy Bob và Alice không thư từ qua lại nữa. Hôm nay Alice quyết định đón xe ngựa đến nhà Bob.
 
-Ơ thế cô xách tôi theo làm chi.
+Ơ thế cô ấy xách mình theo làm gì nhỉ!
 
 Đến nơi chúng tôi thấy Bob say xỉn nằm giữa nhà và...Mallory(!) cũng nằm an ủi bên cạnh. Chẳng nói chẳng rằng Bob móc túi ra lá thư rồi vò lại ném về phía Alice.
 
@@ -60,7 +60,7 @@ Alice hôn tạm biệt Bob lúc này đã tươi tỉnh hơn, rồi ra về. Tr
 
 "Mallory lại giở trò trêu anh nữa rồi". Trêu thôi á hả!
 
-Alice lườm tôi. Tôi không nhớ là hôm qua có ăn thóc của bạn cô nha. Tôi chỉ ăn đậu đỏ thôi.
+Alice lại lườm...Tôi không nhớ là hôm qua có ăn thóc của bạn cô nha. Tôi chỉ ăn đậu đỏ thôi.
 
 Alice lật bức thư Bob đưa ra đọc. Có vẻ cách của cô không qua mặt được Mallory quá lâu. Lần này cô ả thậm chí còn thay đổi số lần dịch chữ cái làm nội dung bức thư loạn cả lên.
 
@@ -70,7 +70,7 @@ Alice, Bob...và tôi(!) cùng ngồi lại bàn bạc.
 
 "Em sẽ cho anh một vài con bồ câu. Quản gia nhà em đã đồng ý cho đi hai con ông vừa huấn luyện tháng trước."
 
-May quá, tôi không bị chuyển công tác, qua nhà tên ngốc kia thì đói ăn đói uống lắm. Sau đó tôi nghe mang máng được quy trình gửi thư mà Alice đề ra:
+May quá, không bị chuyển công tác, qua nhà tên ngốc kia thì đói ăn đói uống lắm. Sau đó tôi nghe mang máng được quy trình gửi thư mà Alice đề ra:
 
 - Mỗi lần Bob muốn gửi thư, anh ta sẽ thả một đồng nghiệp của tôi bay tới nhà Alice. Nhưng không đính kèm bức thư.
 - Alice gửi trả con bồ câu kèm theo một cái hộp nhỏ có khóa. Nhưng hộp không bị khóa.

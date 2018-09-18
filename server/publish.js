@@ -1,7 +1,7 @@
 import fs from 'fs';
 const path = require('path');
 
-import Generator from './Generator';
+import Generator from '../src/core/Generator';
 import postLists from '../public/publish.json';
 
 const gen = new Generator();

@@ -5,7 +5,7 @@ class Footer extends Component {
         return (
             <footer>
                 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a>
-                <p>Created based on <a href="http://github.com/huytd/azeroth-js">azeroth.js</a></p>
+                <p>Created with <a href="https://github.com/johnlemon93/blog-page-ssr">Blog Page SSR</a></p>
                 <div className="social">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/blogchanhday"><i className="icon-facebook-squared"></i></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/johnlemon93"><i className="icon-github-squared"></i></a>

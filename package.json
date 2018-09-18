@@ -38,9 +38,9 @@
     "build": "react-scripts build && cpx \"build/index.html\" build/template",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "publish": "babel-node admin/publish.js",
-    "deploy": "babel-node admin/deploy.js",
-    "server": "npm run publish && nodemon --exec node server/bootstrap.js",
+    "publish": "babel-node server/publish.js",
+    "deploy": "babel-node server/deploy.js",
+    "server": "nodemon --exec node server/bootstrap.js",
     "preview": "npm run publish && npm run build && npm run server"
   }
 }
