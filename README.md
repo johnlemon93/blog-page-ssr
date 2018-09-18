@@ -1,5 +1,5 @@
 # Blog Page SSR
-Blog Page SSR is an static blog engine can be hosted on static file servers such as Github Pages.
+Blog Page SSR is a static blog engine can be hosted on static file servers such as Github Pages.
 It was built with ReactJS using Server Side Rendering and some preload techniques.
 
 ## Live demo
@@ -26,11 +26,12 @@ Check out the [live demo here](https://blogchanhday.com)
 
 1. Create your Github Pages by creating a repository under the name ```<your-github-user-name>.github.io```
 2. Clone that repository to your computer. Then modified the path in *server/deploy.js*
-3. Run ```npm deploy``` to copy the content generated from CRA tool and ```npm preview``` in **build*** to your blog repository
-4. Navigate the directory in step 2 and check in the files.
-5. Now your blog page and posts are online at https://<your-github-user-name>.github.io
+3. Run ```npm deploy``` to copy the content generated from CRA tool and ```npm preview``` in **build** folder to your blog repository
+4. Navigate the directory in step 2 and check in the files to Github Pages.
+5. Now your blog page and posts are online at https://your-github-user-name.github.io
 
-Every time you want to create a new post, create a new *.md file in *server/posts* folder and write with your favorite Markdown Editor. Add your post to the list in *public/publish.json* then run ```npm preview``` and ```npm deloy``` to publish.
+Every time you want to write, create a new *.md file in *server/posts* folder and write with your favorite Markdown Editor.    
+After that, Add your post to the list in *public/publish.json* then run ```npm preview``` and ```npm deloy``` to publish.
 
 ## How to customize?
 
@@ -70,7 +71,7 @@ var config = {
     messagingSenderId: "your messaing sender id"
   };
 ```
-Be noticed that there is no comment notification yet. Someday I will try to fight with laziness and implement that feature 😄.     
+Be noticed that there is no notification yet. Someday I will try to fight with laziness and implement that feature 😄.     
 If you want another comment method, feel free to change the code in *Comment* component at *src/components/pages/post/comment*.
 
 ### Google Analytics
