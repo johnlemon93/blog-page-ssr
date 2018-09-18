@@ -31,7 +31,7 @@ Check out the [live demo here](https://blogchanhday.com)
 
 ### Insert your Social links
 
-# Reference
+# References
 [AzerothJS](https://github.com/huytd/azeroth-js)
 
 # License
