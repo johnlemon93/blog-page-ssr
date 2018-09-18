@@ -10,7 +10,7 @@ Check out the [live demo here](https://blogchanhday.com)
 - No installation required
 - Easy to customize with changes in component level since it was built with ReactJS
 - Made for Github Pages: free, fast, simple
-- More nice features will come (I don't promise but if you press ★ they will come :D)
+- More nice features will come (I don't promise but if you press ★ they will come 😁)
 
 
 ## How to use?
