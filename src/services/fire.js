@@ -5,12 +5,12 @@ import 'firebase/auth';
 import 'firebase/database';
 
 var config = {
-    apiKey: "AIzaSyB0CIlCISQJxYGCjVfgpLbLnxKjuzn9Rtk",
-    authDomain: "blog-chanh-day.firebaseapp.com",
-    databaseURL: "https://blog-chanh-day.firebaseio.com",
-    projectId: "blog-chanh-day",
-    storageBucket: "blog-chanh-day.appspot.com",
-    messagingSenderId: "344695729502"
+    apiKey: "your api key",
+    authDomain: "your auth domain",
+    databaseURL: "your database url",
+    projectId: "your project id",
+    storageBucket: "your storage bucket",
+    messagingSenderId: "your messaing sender id"
   };
 
 var app = firebase.initializeApp(config);
