@@ -70,7 +70,7 @@ var config = {
     messagingSenderId: "your messaing sender id"
   };
 ```
-Notice that there is no comment notification yet.      
+Be noticed that there is no comment notification yet. Someday I will try to fight with laziness and implement that feature 😄.     
 If you want another comment method, feel free to change the code in *Comment* component at *src/components/pages/post/comment*.
 
 ### Google Analytics
