@@ -1,5 +1,5 @@
 # Blog Page SSR
-Blog Page SSR is a static blog engine can be hosted on static file servers such as Github Pages.
+Blog Page SSR is a static blog engine can be hosted on Github Pages or any static file server.             
 It was built with ReactJS using Server Side Rendering and some preload techniques.
 
 ## Live demo
