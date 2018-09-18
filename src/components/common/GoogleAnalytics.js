@@ -52,7 +52,7 @@ const init = (options = {}) => {
     //const env = window._env_ || {}
     const env = {};
 
-    env.REACT_APP_GA_TRACKING_ID = "UA-119883226-1";
+    env.REACT_APP_GA_TRACKING_ID = "your-ga-id";
     env.REACT_APP_GA_DEBUG = 'false';
 
     const isGAEnabled = !!env.REACT_APP_GA_TRACKING_ID
