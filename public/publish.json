@@ -1,6 +1,11 @@
 {
     "published": [
         {
+            "title": "Git cherry pick",
+            "url": "/p/git-cherry-pick/",
+            "date": "2018-09-22 16:40:02"
+        },
+        {
             "title": "JavaScript: Tổng quan về engine, event loop, callback queue...",
             "url": "/p/javascript-tong-quan-ve-engine-runtime-call-stack-va-event-loop/",
             "date": "2018-09-19 11:20:20"
