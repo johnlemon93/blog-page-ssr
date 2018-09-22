@@ -9,7 +9,7 @@ main p {
     line-height: 150%;
 }
 
-main img {
+main img, main .center {
     display: block;
     margin: auto;
     max-width: 100%;

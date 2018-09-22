@@ -1,6 +1,11 @@
 {
     "published": [
         {
+            "title": "JavaScript: Tổng quan về engine, event loop, callback queue...",
+            "url": "/p/javascript-tong-quan-ve-engine-runtime-call-stack-va-event-loop/",
+            "date": "2018-09-19 11:20:20"
+        },
+        {
             "title": "Nhật ký anh bồ câu đưa thư và HTTPS",
             "url": "/p/nhat-ky-anh-bo-cau-dua-thu-va-https/",
             "date": "2018-08-19 17:20:20"
