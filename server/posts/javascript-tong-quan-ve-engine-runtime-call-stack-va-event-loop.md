@@ -86,8 +86,8 @@ Như xử lý ảnh chẳng hạn.
 ```javascript
 function resize() {
     console.log("starts resizing the image.. It may take 1 hour.");
-    \\ user1: oops, okay lets wait
-    \\ user2: or maybe I will go home and back on tomorrow
+    // user1: oops, okay lets wait
+    // user2: or maybe I will go home and back on tomorrow
 }
 ```
 
