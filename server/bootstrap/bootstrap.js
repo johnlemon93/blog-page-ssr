@@ -11,5 +11,3 @@ require('babel-register')({
         'react-loadable/babel'
     ]
 });
-
-require('./index');
