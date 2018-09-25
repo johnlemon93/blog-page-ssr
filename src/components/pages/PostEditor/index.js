@@ -17,6 +17,7 @@ class PostEditor extends Component {
         this.handleScroll = this.handleScroll.bind(this);
         this.handleSavePost = this.handleSavePost.bind(this);
         this.handleLeavingEditor = this.handleLeavingEditor.bind(this);
+        this.handleKeyboardShortCut = this.handleKeyboardShortCut.bind(this);
     }
 
     componentDidMount() {
@@ -35,6 +36,7 @@ class PostEditor extends Component {
                 console.error(error);
             });
         window.addEventListener("beforeunload", this.handleLeavingEditor);
+        window.addEventListener("keydown", this.handleKeyboardShortCut);
     }
 
     componentDidUpdate() {
@@ -48,6 +50,7 @@ class PostEditor extends Component {
             this.handleSavePost();
         }
         window.removeEventListener("beforeunload", this.handleLeavingEditor);
+        window.removeEventListener("keydown", this.handleKeyboardShortCut);
     }
 
     handleLeavingEditor(e) {
@@ -61,6 +64,16 @@ class PostEditor extends Component {
 
     handleScroll(e) {
         document.getElementById("preview").scrollTop = e.target.scrollTop * 1.5;
+    }
+
+    handleKeyboardShortCut(e) {
+        let keyCode = e.which || e.keyCode;
+        let ctrlCode = e.ctrlKey || e.metaKey;
+
+        if (keyCode === 83 && ctrlCode) {
+            e.preventDefault();
+            this.handleSavePost();
+        }
     }
 
     handleSavePost() {

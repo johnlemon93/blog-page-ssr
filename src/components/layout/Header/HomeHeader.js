@@ -5,8 +5,8 @@ class HomeHeader extends Component {
     render() {
         return (
             <header>
-                <a href="/"><img src="images/logo.gif" alt="animal" /></a>
-                <h2 itemProp="name">BLOG CHANH DÂY</h2>
+                <a href="/"><img src="images/logo.png" alt="animal" /></a>
+                <h1 itemProp="name">BLOG CHANH DÂY</h1>
                 <h4 itemProp="author">by John Lemon</h4>
                 <p className="me-intro" itemProp="description">Nơi tôi thỏa sức tập tành viết lách,<br /> than thở chuyện đời và...<br /> nói xấu người khác</p>
 
