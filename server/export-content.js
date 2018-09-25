@@ -82,7 +82,7 @@ export default (rootContentDir, templatePath) => new Promise(async (resolve, rej
         if (!page.includes("/p/")) {
             continue;
         }
-        await postApi.getPostContent(page.split('/').splice(-1));
+        await postApi.getPostContent(page.split('/').splice(-2)[0]);
     }    
 
     fs.readFile(templatePath, 'utf8', (err, htmlData) => {
