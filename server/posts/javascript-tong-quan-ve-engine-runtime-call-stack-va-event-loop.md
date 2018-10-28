@@ -127,11 +127,7 @@ Bạn hãy quan sát Call Stack trong quá trình đoạn code được chạy.
 
 ![Async Callbacks & The Call Stack](/p/javascript-tong-quan-ve-engine-runtime-call-stack-va-event-loop/img/async-in-call-stack.gif "Async Callbacks & The Call Stack")
 
-Okay, giờ bạn thấy sao. Có gì đó sai sai? Đừng vội trách mình khi ở trên mình đã ghi là "một lúc chỉ thực hiện một việc thôi". Thôi coi như là "nói láo một nửa" đi 😜.
-
-Đùa chứ đó là sự thật và cũng không có mâu thuẫn gì cả. Ta không thể gọi một AJAX request hay ```setTimeout``` khi đang chạy đoạn code khác. Bắt buộc phải đợi.
-
-Vậy thì trong ví dụ trên, tại sao hàm ```main``` chạy xong và ra khỏi Call Stack rồi, mà ```timeout``` với ```console.log("There!")``` lại ở đâu được đẩy vô Stack hay vậy?
+Bạn có thắc mắc tại sao hàm ```main``` chạy xong và ra khỏi Call Stack rồi, mà ```timeout``` với ```console.log("There!")``` lại ở đâu được đẩy vô hay vậy?
 
 Hãy nhìn lại bức tranh bự ở phần Runtime, ý mình là **browser's JS runtime environment**. Bên cạnh JS Engine, browser còn cung cấp các **WebAPIs**, một **event loop** và một **callback queue**. Chúng chạy trên các thread riêng và được browser bảo trợ về concurrency.
 
@@ -141,13 +137,9 @@ Tiếp theo mình sẽ giải thích concurrency được thực hiện như th�
 
 ### Event Loop và Callback queue
 
-Cho nó trực quan thì bắt đầu bằng một cái ```gif``` nữa nhé. Rồi mình sẽ giải thích sau.
-
 ![Event loop and Callback Queue in action](/p/javascript-tong-quan-ve-engine-runtime-call-stack-va-event-loop/img/event-loop-and-callback-queue-in-action.gif "Event loop and Callback Queue in action")
 
-Mình đã lấy lại ví dụ hồi nãy, nhưng thêm Event Loop (EL) và Callback Queue (CQ) vào bức tranh.
-
-Okay, giờ bạn hiểu concurrency trong JS hoạt động như thế nào chưa? Các hàm async callback sẽ được đưa vào hàng đợi CB. Còn nhiệm vụ của EL là đợi cho Call Stack (CS) rỗng rồi sẽ soi CB xem có gì không, nếu có thì bốc cái đầu tiên bỏ vào CS để chạy.
+Mình đã lấy lại ví dụ hồi nãy, nhưng thêm Event Loop (EL) và Callback Queue (CQ) vào bức tranh. Các hàm async callback sẽ được đưa vào hàng đợi CQ. Còn nhiệm vụ của EL là đợi cho Call Stack (CS) rỗng rồi sẽ soi CQ xem có gì không, nếu có thì bốc cái đầu tiên bỏ vào CS để chạy.
 
 Nếu bạn để ý cái gif trên kĩ chút thì sẽ không thấy ```setTimeout``` xuất hiện trong khung **WebApis**, thì tại chúng ta đang để timeout=0 mà. Điều này khẳng định lại rằng, EL phải đợi cho CS rỗng thì mới đẩy tác vụ từ CQ vào. Nên cho dù bạn để ```setTimeout``` *zero* thì ```cantWait()``` cũng phải chờ và "Zero there!" sẽ được in ra sau cùng.
 
