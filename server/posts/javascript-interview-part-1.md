@@ -1,6 +1,6 @@
 # Phỏng vấn JavaScript người ta hỏi gì? - Phần 1
 
-<p><div class='published'><b>Published:</b> 2018-09-23 20:19:18</div></p>
+<p><div class='published'><b>Published:</b> 2018-10-23 20:19:18</div></p>
 
 ![Are these questions relevant?](/p/javascript-interview-part-1/img/intro.png "Cha phỏng vấn mình hỏi toàn thứ gì đâu, ghét quá bỏ về!")
 
