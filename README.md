@@ -18,7 +18,7 @@ Check out the [live demo here](https://blogchanhday.com)
 ### Run locally
 1. Clone this project to your computer
 2. Open your Command Line (**cmd** on Windows or **Terminal** on MacOs) and point to the project folder
-3. Run ```npm update``` to get all required packages
+3. Run ```npm install``` to get all required packages
 4. Run ```npm preview``` (make sure you have installed **Create React App** tool, if not please run ```npm install create-react-app``` first)
 5. The blog is now available at http://localhost:3080/
 
