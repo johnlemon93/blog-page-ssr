@@ -12,10 +12,15 @@ fs.readdir(__dirname + '/posts/', function (err, files) {
         return;
     }
 
+    const destinationDir = path.resolve(__dirname, '..', 'public/posts');
+    if (!fs.existsSync(destinationDir)) {
+        fs.mkdirSync(destinationDir);
+    };
+
     files.forEach(function (f) {
         if (!postLists.published.find(p => p.url.includes(f.replace('.md', '')))) return;
 
-        let htmlFile = path.resolve(__dirname, '..', 'public/posts') + "/" + f.replace('.md', '.html');
+        const htmlFile = destinationDir + "/" + f.replace('.md', '.html');
         fs.readFile(__dirname + '/posts/' + f, function (err, data) {
             if (err)
                 throw err;
@@ -33,5 +38,4 @@ fs.readdir(__dirname + '/posts/', function (err, files) {
     });
 
     console.log("Completed!");
-
 });
