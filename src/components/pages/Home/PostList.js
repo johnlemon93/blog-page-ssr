@@ -19,6 +19,7 @@ class PostList extends Component {
 
     render() {
         const zodiacIconss = {
+            "2020": "images/ty.png",
             "2019": "images/hoi.png",
             "2018": "images/tuat.png",
             "2017": "images/dau.png"
