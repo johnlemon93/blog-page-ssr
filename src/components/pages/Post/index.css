@@ -61,17 +61,24 @@ ul li, ol li {
     padding-top: 20px;
 }
 
-.post-container .copyright #brick {
+.post-container i {
     width: 1.7em;
     height: 1.7em;
     display: inline-block;
-    background-image: url('/images/voz-brick.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     color: transparent !important;
     vertical-align: middle;
     margin-top: -2px;
+}
+
+.post-container #brick {
+    background-image: url('/images/voz-brick.png');
+}
+
+.post-container #dreaming {
+    background-image: url('/images/voz-still-dreaming-icon.png');
 }
 
 .post-container h1:before, 
